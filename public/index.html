@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TravelList</title>
+	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 head"> Travel list</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 filter">
+				<div class="buttons">
+  					<button type="button" class="btn btn-primary allTasks"><span class="glyphicon glyphicon-list-alt" area-hidden="true"></span> All Tasks</button>
+  					<button type="button" class="btn btn-primary todo"><span class="glyphicon glyphicon-paperclip" area-hidden="true"></span> To do</button>
+  					<button type="button" class="btn btn-primary complete"><span class="glyphicon glyphicon-ok-circle" area-hidden="true"></span> Complete</button>
+  				</div>
+			</div>
+		</div>
+		<div class="row body"></div>
+		<div class="row addTask">
+			<div class="col-sm-9 inputTask">
+				<input type="text" placeholder="Add a task" class="addTask">
+			</div>
+			<div class="col-sm-3">
+				<button type="button" class="btn btn-danger add"><span class="glyphicon glyphicon-plus" area-hidden="true"></span> ADD</button>
+			</div>
+		</div>
+		<div class="row footer">
+			<p>Tasks:<span id="done">0</span>/<span id="allTasks">0</span></p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="jquery/dist/jquery.min.js"></script>	
+	<script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>	
+	<script type="text/javascript" src="javascripts/main.js"></script>	
+	<script type="text/javascript" src="javascripts/models/travelTask.js"></script>	
+	<script type="text/javascript" src="javascripts/models/travelTaskCollection.js"></script>	
+	<script type="text/javascript" src="javascripts/views/view.js"></script>	
+	<script type="text/javascript" src="javascripts/controllers/controller.js"></script>
+</body>
+</html>

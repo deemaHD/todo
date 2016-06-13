@@ -1,0 +1,84 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+div.container {
+	box-sizing: border-box;
+	border: 2px solid grey;
+	border-radius: 10px;
+	background-color: #1DE9B6;
+	width:600px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+div.head {
+	text-align: center;
+	color:white;
+	font-size: 45px;
+}
+
+div.body {
+	background-color: white;
+	font-size: 25px;
+}
+
+div.buttons {
+	text-align: center;
+}
+
+button.btn-primary {
+	margin-top:5px;
+	margin-bottom:5px;
+	border: transparent;
+	background-color: #00B8D4;
+	border-radius: 5px;
+}
+
+div.addTask {
+   box-sizing: border-box;
+   background-color: white; 
+}
+
+input.addTask {
+	margin:10px;
+	width:100%;
+	font-size:20px;
+	border-radius: 5px;	
+}
+
+
+button.btn-danger {
+	margin-top:7px;
+	width:100%;
+}
+
+div.footer {
+	padding-left:15px;
+	padding-top:10px;
+	background-color: #E0E0E0;
+	font-size: 20px;
+}
+
+span.task {
+	font-size: 18px;
+	font-style: italic;
+}
+
+span.crossout {
+	text-decoration: line-through;
+}
+
+input.edit {
+	font-size:15px;
+	border-radius:5px;
+}
+
+button.novisible {
+	visibility: hidden;
+}
+
+button:disabled {
+	background: gray; 
+}
+
